@@ -16,7 +16,7 @@ nav ul li {
     float: left;
     border-right: 1px solid #bbb;
 }
-nav ul li:last-child {
+nav ul li:nth-last-child(1)  {
     border-right: none;
 }
 nav ul li a {
@@ -57,3 +57,7 @@ footer {
 #footer-start {
     font-weight: bold;
 }
+ul .icon {
+    display: none;
+}
+
