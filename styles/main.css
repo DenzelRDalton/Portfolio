@@ -1,0 +1,54 @@
+/* Denzel Dalton */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8fafa;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    flex-basis: 100%;
+}
+nav ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem .8rem;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    display: block;
+}
