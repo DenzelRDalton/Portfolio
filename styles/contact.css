@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-top: 7rem;
+    justify-content: center;
+}
+form input, form textarea {
+    margin-bottom: 1rem;
+}
+#submit {
+    margin: auto;
+}
