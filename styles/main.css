@@ -1,38 +1,8 @@
 /* Denzel Dalton */
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f8fafa;
 }
-nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    overflow: hidden;
-    flex-basis: 100%;
-}
-nav ul li {
-    float: left;
-    border-right: 1px solid #bbb;
-}
-nav ul li:nth-last-child(1)  {
-    border-right: none;
-}
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1rem .8rem;
-    text-decoration: none;
-}
-nav ul li a:hover {
-    background-color: #111;
-}
-.active {
-    background-color: #04AA6D;
-}
-
 section {
     display: flex;
     align-items: center;
