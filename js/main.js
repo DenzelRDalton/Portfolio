@@ -1,5 +1,9 @@
-const navbar = document.querySelector(".nav");
-console.log(navbar.innerHTML);
-fetch("../navbar.html")
-.then(res => res.text())
-.then(data => {navbar.innerHTML = data});
+function ChangeNavbarActive (pageName) {
+    let active = document.getElementsByClassName("active")[0];
+    active.classList.remove("active");
+
+    let newActive = document.getElementById(pageName);
+    newActive.classList.add("active");
+
+    console.log(pageName);
+}

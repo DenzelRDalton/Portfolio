@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/contact.css">
-    
-    
     <title>Denzel Dalton</title>
     <!-- Denzel Dalton -->
 </head>
-<body>
-    <nav id="nav"></nav>
+<body onload="ChangeNavbarActive('index')">
+    <?php require_once("./navbar.php");?>
+
     <main>
         <section>
             <h2>Hi, My name is Denzel and I can help you with technology.</h2>
@@ -31,9 +29,7 @@
             </p>
         </section>
     </main>
-    <footer>
-        <p><span id="footer-start">Contact information:</span> <a href="#">denzel.r.dalton@gmail.com</a></p>
-    </footer>
+    <?php require_once("./footer.php");?>
     <script src="./js/main.js"></script>
 </body>
 </html>

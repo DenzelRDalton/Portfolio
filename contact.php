@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./styles/contact.css">
     <title>Denzel Dalton</title>
 </head>
-<body>
+<body onload="ChangeNavbarActive('contact')">
+    <?php include_once("./navbar.php"); ?>
     <main>
         <form>
             <label for="fname">Please enter your name:</label>
@@ -19,5 +20,8 @@
             <input id="submit" type="submit" value="Submit">
         </form>
     </main>
+    
+    <?php include_once("./footer.php"); ?>
+    <script src="./js/main.js"></script>
 </body>
 </html>

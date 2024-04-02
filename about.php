@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="./styles/main.css">
     <title>Denzel Dalton</title>
 </head>
-<body>
-    
+<body onload="ChangeNavbarActive('about')">
+    <?php include_once("./navbar.php"); ?>
+    <?php include_once("./footer.php"); ?>
+    <script src="./js/main.js"></script>
 </body>
 </html>
