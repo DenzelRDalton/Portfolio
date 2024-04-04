@@ -16,7 +16,7 @@ section p {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     align-items: center;
     justify-content: center;
@@ -56,6 +56,11 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
+#headshot {
+    width: 35rem;
+    height: 20rem;
+}
+
 .active {
     background-color: #04AA6D;
 }
