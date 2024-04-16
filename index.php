@@ -11,8 +11,6 @@
 </head>
 <body onload="ChangeNavbarActive('index')">
     <?php require_once("./navbar.php");?>
-
-    <main>
         <section>
             <h2>Hi, My name is Denzel and I can help you with technology.</h2>
             <img id="headshot" name="headshot" src="https://img.freepik.com/free-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_188544-9655.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1710374400&semt=sph" alt="image not found">
@@ -35,7 +33,6 @@
                 If you would like to contact me you can either send me an email at: <a href="#">denzel.r.dalton@gamil.com</a> or send a message via form on the contact page.
             </p>
         </section>
-    </main>
     <?php require_once("./footer.php");?>
     <script src="./js/main.js"></script>
 </body>
