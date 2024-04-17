@@ -11,33 +11,36 @@
     <?php include_once("./navbar.php"); ?>
 
     <section>
-        <h3>Here are some of my personal projects</h3>
+        <h2>Here Are Some of My Personal Projects</h2>
 
         <ul class="cards">
             <li class="card">
                 <img src="./images/FPS Lab.JPG" alt="Image not found">
+                <hr>
                 <h3>FPS Lab</h3>
                 <p>First Person Shooter Game</p>
             </li>
             <li class="card">
                 <img src="./images/Mario.JPG" alt="Image not found">
+                <hr>
                 <h3>Platformer Lab</h3>
                 <p>Platformer Game</p>
             </li>
             <li class="card">
                 <img src="./images/CG.JPG" alt="Image not found">
+                <hr>
                 <h3>OpenGL Proj</h3>
                 <p>OpenGL Graphics Program</p>
             </li>
             <li class="card">
                 <img src="./images/curves.JPG" alt="Image not found">
+                <hr>
                 <h3>CImage Curves</h3>
                 <p>Curve Algorithm Demonstration</p>
             </li>
         </ul>
+        <?php include_once("./footer.php"); ?>
     </section>
-
-    <?php include_once("./footer.php"); ?>
     <script src="./js/main.js"></script>
 </body>
 </html>

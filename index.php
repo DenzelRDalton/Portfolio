@@ -32,8 +32,8 @@
             <p>
                 If you would like to contact me you can either send me an email at: <a href="#">denzel.r.dalton@gamil.com</a> or send a message via form on the contact page.
             </p>
+            <?php require_once("./footer.php");?>
         </section>
-    <?php require_once("./footer.php");?>
     <script src="./js/main.js"></script>
 </body>
 </html>

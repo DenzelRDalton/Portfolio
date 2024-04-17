@@ -22,9 +22,8 @@
         <p>
             Since 2020 I have worked in the IT departmet for ServiceNet Inc, helping to troubleshoot user issues and maintain company infrastructure.
         </p>
+        <?php include_once("./footer.php"); ?>
     </section>
-
-    <?php include_once("./footer.php"); ?>
     <script src="./js/main.js"></script>
 </body>
 </html>
