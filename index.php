@@ -32,6 +32,7 @@
             <p>
                 If you would like to contact me you can either send me an email at: <a href="#">denzel.r.dalton@gamil.com</a> or send a message via form on the contact page.
             </p>
+            <button id="print" type="button" value="print" onclick="window.print()">Print</button>
             <?php require_once("./footer.php");?>
         </section>
     <script src="./js/main.js"></script>
