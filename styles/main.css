@@ -14,12 +14,10 @@ section {
     justify-content: center;
     flex: 1;
 }
-
 section p {
     margin-left: 15%;
     margin-right: 15%;
 }
-
 section footer {
     height: 2rem;
     text-align: center;
@@ -30,17 +28,18 @@ section footer {
     margin-right: auto;
     padding: 0;
 }
-
 section footer p{
     margin: 0;
 }
 #footer-start {
     font-weight: bold;
 }
+#headshot {
+    float: left;
+}
 ul .icon {
     display: none;
 }
-
 nav{
     position: fixed;
 }
@@ -95,11 +94,11 @@ nav ul li a:hover {
     border-radius: 10px;
     border: #333 solid;
 }
-.navbar{
+.navbar {
     width: 100%;
 }
 @media screen and (max-width: 768px){
-    .toggle-button{
+    .toggle-button {
         display: flex;
         justify-content: space-between;
     }

@@ -29,11 +29,11 @@ label {
     border: 2px solid #04AA6D;
     padding: 14px 40px;
 }
-#submit:hover{
+#submit:hover {
     background-color: #04AA6D;
     color: white;
 }
-input:focus, textarea:focus{
+input:focus, textarea:focus {
     outline: none !important;
     box-shadow:  0 0 12px #719ECE;
 }

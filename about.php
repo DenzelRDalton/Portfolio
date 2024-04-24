@@ -10,18 +10,61 @@
     <?php include_once("./navbar.php"); ?>
 
     <section>
-        <h3>Education and Certifications</h3>
-        <ul>
-            <li>Bachelor's degree in computer science from the University of North Carolina Wilmington: May 2024</li>
-            <li>CompTIA A+</li>
-            <li>CompTIA Network+</li>
-            <li>Azure Cloud Assotiate</li>
-        </ul>
-
-        <h3>Work Experience</h3>
-        <p>
-            Since 2020 I have worked in the IT departmet for ServiceNet Inc, helping to troubleshoot user issues and maintain company infrastructure.
-        </p>
+        <table border="1">
+            <caption><h3>Education</h3></caption>
+            <thead>
+                <tr>
+                    <th>Institution</th>
+                    <th>Degree or Certification</th>
+                    <th>Date of Completion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>University of North Carolina Wilmington</td>
+                    <td>Bachelor's of Science in Computer Science</td>
+                    <td>05/2024</td>
+                </tr>
+                <tr>
+                    <td>CompTIA</td>
+                    <td>A+</td>
+                    <td>03/2021</td>
+                </tr>
+                <tr>
+                    <td>CompTIA</td>
+                    <td>Network+</td>
+                    <td>03/2021</td>
+                </tr>
+                <tr>
+                    <td>Microsoft</td>
+                    <td>Azure Assotiate</td>
+                    <td>09/2023</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <table border="1">
+            <caption><h3>Work Experience</h3></caption>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Last Day</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ServiceNet INC</td>
+                    <td>Computer Technician</td>
+                    <td>Current</td>
+                </tr>
+                <tr>
+                    <td>Target</td>
+                    <td>Logistics Specialist</td>
+                    <td>09/2021</td>
+                </tr>
+            </tbody>
+        </table>
         <?php include_once("./footer.php"); ?>
     </section>
     <script src="./js/main.js"></script>
